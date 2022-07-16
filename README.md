@@ -9,13 +9,20 @@ http://bodyapps-viz.luhui.net/
 https://bodyapps-viz.netlify.app/
 
 
-BodyApps 3D 身体可视化器
-#bodyapps 项目的 3D 身体可视化组件
+luhui BodyApps 3D 身体可视化器
+#luhui bodyapps 项目的 3D 身体可视化组件
 
 关于
-Body Visualiser 应用程序试图创建一个基于 Web 的 3D 人体可视化器，其中包含导入身体测量值的选项，使用 Fashiontec 的 BodyApps Web 服务并使用滑块功能对人体进行建模。
+luhui Body Visualiser 应用程序试图创建一个基于 Web 的 3D 人体可视化器，其中包含导入身体测量值的选项，使用 Fashiontec 的 BodyApps Web 服务并使用滑块功能对人体进行建模。
 
 该应用程序支持男性、女性和中性儿童身体模型，并可选择修改以下身体尺寸和特征。
+
+## 绘制展示
+![luhui BodyApps 3D 身体可视化器绘制展示](http://bodyapps-viz.luhui.net/luhuiOpnTecbodyapps-vizthumbnails1.jpg)
+![luhui BodyApps 3D 身体可视化器绘制展示](http://bodyapps-viz.luhui.net/luhuiOpnTecbodyapps-vizthumbnails2.jpg)
+![luhui BodyApps 3D 身体可视化器绘制展示](http://bodyapps-viz.luhui.net/luhuiOpnTecbodyapps-vizthumbnails3.jpg)
+![luhui BodyApps 3D 身体可视化器绘制展示](http://bodyapps-viz.luhui.net/luhuiOpnTecbodyapps-vizthumbnails4.jpg)
+
 
 高度
 胸部/胸部
