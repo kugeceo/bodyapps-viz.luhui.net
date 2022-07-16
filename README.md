@@ -1,89 +1,90 @@
 [![Build Status](https://travis-ci.org/fossasia/bodyapps-viz.svg?branch=master)](https://travis-ci.org/fossasia/bodyapps-viz)
 [![Join the chat at https://gitter.im/fossasia/bodyapps-android](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/fossasia/bodyapps?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-# BodyApps 3D Body Visualiser
+BodyApps 3D 身体可视化器
+#bodyapps 项目的 3D 身体可视化组件
 
-3D body visualizer component for #bodyapps project
+关于
+Body Visualiser 应用程序试图创建一个基于 Web 的 3D 人体可视化器，其中包含导入身体测量值的选项，使用 Fashiontec 的 BodyApps Web 服务并使用滑块功能对人体进行建模。
 
-## About 
-The Body Visualiser App is an attempt to create a web based 3D Human body visualiser with options to import body measurements , using Fashiontec’s BodyApps Web Service and model the human body using the slider functions.
+该应用程序支持男性、女性和中性儿童身体模型，并可选择修改以下身体尺寸和特征。
 
-The App supports the models for a Male , Female and a gender neutral Kids Body with options to modify following body measurements and features.
+高度
+胸部/胸部
+颈围
+颈部高度
+肩膀
+肩坡
+胸围
+胃型
+腰部
+臂长
+上臂围
+手腕
+臀围
+臀高
+大腿围
+小腿长度
+小牛
+沟通
+请加入我们的沟通渠道。
 
-* Height
-* Chest/Breast
-* Neck Girth
-* Neck Height 
-* Shoulders
-* Shoulder’s Slope
-* Bust Girth
-* Stomach Form
-* Waist
-* Arm Length
-* Upper Arm Girth
-* Wrist
-* Hip Girth
-* Hip Height
-* Thigh Girth
-* Lower Leg Length
-* Calf
+邮件列表位于：https ://groups.google.com/forum/#!forum/bodyapps
 
-## Communication
+Gitter 聊天：https ://gitter.im/fossasia/bodyapps
 
-Please join our communication channels.
+构建项目
+1.Clone Master Repo 2.找到文件夹，然后运行index.html（如果没有启用则启用Javascript）
 
-Mailing List at: https://groups.google.com/forum/#!forum/bodyapps
+文件夹
+BodyViz 项目有 3 个文件夹
 
-Gitter chat at: https://gitter.im/fossasia/bodyapps
+css - 包含 BodyVisualiser 的样式表
+模型 - 包含人类基础模型及其变形目标的 .js 文件以及所有模型的配置文件
+js-包含三个.js 和 UCSCharacter.js，允许渲染和自定义模型。
+除此之外还有其他三个文件
 
-## Building the Project
+index.html - 可视化男性身体
+female.html-可视化女性身体
+kids.html-可视化孩子的身体
+楷模
+剥皮的
 
-1.Clone the Master Repo
-2.Locate the folder , and run the index.html (Enable Javascript if not enabled)
+统一通信系统
 
-## Folders
-The project BodyViz has 3 folders
-* css -Contains the style sheets for the BodyVisualiser
-* models-Contains the .js files for the Human base models and their morph targets alongwith config files for all the models
-* js-Contains three.js and UCSCharacter.js which allows to render and customize the models.
+basic.js-Three.js 人体男性模型，由 Blender 导出
 
-Along with this there are three other files 
-* index.html - Visualises Male Body 
-* female.html-Visualises Female Body
-* kids.html-Visualises Kid’s Body
+female.js-Three.js 人体女性模型，由 Blender 导出
 
+child.js-Three.js 人体模型，由 Blender 导出
 
-###  models
-* skinned
-* UCS
-* basis.js-Three.js human male body model , exported by Blender
-* female.js-Three.js  human female body model , exported by Blender
-* child.js-Three.js  human kid body model , exported by Blender
-* skins
-* Highlighted_Muscles.jpg:Skin UV Map for the human body models.
+皮肤
 
-* testconfig.json - config file for the male body.
-* femaleconfig.json-config file for the female body.
-* childconfig.json-config file for the kid’s body.
+Highlighted_Muscles.jpg：人体模型的皮肤 UV 贴图。
+
+testconfig.json - 男性身体的配置文件。
+
+女性身体的 femaleconfig.json-config 文件。
+
+孩子身体的 childconfig.json-config 文件。
 
 ###js
-* Orbit.js-Developed by three.js org , has functions to set up the camera orbits , and enable 3D toggle view.
-* Three.js-Developed by three.js org , has functions to render the three.js exported models in web view and use Morph Targets to customise the human body Models
-* data.gui.js-Developed by data.gui.js , allows to create sliders and gui for the visualiser.
-* detector.js-Detects the windows resolution and adapts the visualiser’s resolution as per that
-* UCSCharacter.js-Contains the functions to render call the model data and render it using three.js library.It also has functions to listen to the slider changes and update the body visualiser model as required.
 
-## Additional Softwares and Libraries Used
-### Three.js
-Three.js is a lightweight cross-browser JavaScript library/API used to create and display animated 3D computer graphics on a Web browser. Three.js scripts may be used in conjunction with the HTML5 canvas element, SVG or WebGL. The source code is hosted in a repository on GitHub.
+Orbit.js-由three.js org开发，具有设置相机轨道和启用3D切换视图的功能。
+Three.js-由three.js org开发，具有在web视图中渲染three.js导出的模型并使用Morph Targets自定义人体模型的功能
+data.gui.js-由 data.gui.js 开发，允许为可视化器创建滑块和 gui。
+detector.js-检测windows分辨率并根据它调整可视化器的分辨率
+UCSCharacter.js-包含渲染调用模型数据并使用three.js库渲染它的函数。它还具有监听滑块变化和根据需要更新身体可视化模型的函数。
+使用的其他软件和库
+三.js
+Three.js 是一个轻量级的跨浏览器 JavaScript 库/API，用于在 Web 浏览器上创建和显示动画 3D 计算机图形。Three.js 脚本可以与 HTML5 画布元素、SVG 或 WebGL 结合使用。源代码托管在 GitHub 上的存储库中。
 
-### Blender 2.70
-Blender is an open source 3D application for modeling, animation, rendering, compositing, video editing and game creation. Blender is available for Linux, Mac OS X and Windows and has a large world-wide community.Blender can be used freely for any purpose, including commercial use and distribution. It's free and open-source software, released under the GNU GPL licence.
+搅拌机 2.70
+Blender 是一个用于建模、动画、渲染、合成、视频编辑和游戏创建的开源 3D 应用程序。Blender 可用于 Linux、Mac OS X 和 Windows，并拥有庞大的全球社区。Blender 可以免费用于任何目的，包括商业用途和分发。它是免费的开源软件，在 GNU GPL 许可下发布。
 
-This project has extensively used Blender along with Three.js export/import script[1][2] , to design the morph targets and then export the models in three.js format.
+该项目广泛使用 Blender 和 Three.js 导出/导入脚本[1][2] 来设计变形目标，然后以 three.js 格式导出模型。
 
-### MakeHuman
-MakeHuman is an open source 3D computer graphics software middleware designed for the prototyping of photo realistic humanoids. It is developed by a community of programmers, artists, academics interested in 3D modeling of characters.
-MakeHuman is fully Open Source. The character output of MakeHuman is released to public domain under CC0, in order to be freely used in commercial and non-commercial projects. The database and the code are released under the GNU License Affero GPL.
+造人
+MakeHuman 是一个开源 3D 计算机图形软件中间件，专为照片逼真的人形机器人原型设计。它由对角色 3D 建模感兴趣的程序员、艺术家和学者组成的社区开发。MakeHuman 是完全开源的。MakeHuman 的字符输出在 CC0 下发布到公共领域，以便在商业和非商业项目中自由使用。数据库和代码在 GNU 许可证 Affero GPL 下发布。
 
-MakeHuman models are used as the base models for this project and some morph targets have been developed taking inspiration from the morph targets of the MakeHuman Project.The MakeHuman project allows to export the models in various formats.
+MakeHuman 模型被用作该项目的基础模型，并且从 MakeHuman 项目的变形目标中获得了一些变形目标的开发。MakeHuman 项目允许以各种格式导出模型。
