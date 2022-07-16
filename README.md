@@ -1,6 +1,14 @@
 [![Build Status](https://travis-ci.org/fossasia/bodyapps-viz.svg?branch=master)](https://travis-ci.org/fossasia/bodyapps-viz)
 [![Join the chat at https://gitter.im/fossasia/bodyapps-android](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/fossasia/bodyapps?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
+http://bodyapps-viz.luhui.net/
+
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/30d2fb2f-1ace-4ea7-96cf-c0f594965597/deploy-status)](https://app.netlify.com/sites/bodyapps-viz/deploys)
+
+https://bodyapps-viz.netlify.app/
+
+
 BodyApps 3D 身体可视化器
 #bodyapps 项目的 3D 身体可视化组件
 
