@@ -8,6 +8,8 @@ http://bodyapps-viz.luhui.net/
 
 https://bodyapps-viz.netlify.app/
 
+https://bodyapps-viz.guanfu.org/
+
 
 luhui BodyApps 3D 身体可视化器
 #luhui bodyapps 项目的 3D 身体可视化组件
